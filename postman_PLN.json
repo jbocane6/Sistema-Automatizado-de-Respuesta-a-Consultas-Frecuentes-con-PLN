@@ -1,0 +1,45 @@
+{
+    "info": {
+        "_postman_id": "98c9456d-a142-409d-8e6a-49c0c97bfe39",
+        "name": "PLN",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "PLN preguntas atención al usuario",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://127.0.0.1:5000/ask",
+                    "path": [
+                        "ask"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "5000"
+                },
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\"question\": \"como actualizo producto\"}"
+                }
+            }
+        }
+    ]
+}
